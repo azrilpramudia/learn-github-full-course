@@ -1,5 +1,9 @@
 # Learn Github Command
+
+![Alt Text](./images/BasicGuideGitHub.jpg)
+
 ## Command Github
+
 - git init
 - git add nama file / git add . (untuk semua file)
 - git commit -m "first commit"
@@ -9,4 +13,5 @@
 - git checkout -b (nama branch)
 - git clone
 - git remote add origin (masukan link repo)
+
 ## Update Learn Coming Soon
