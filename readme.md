@@ -4,7 +4,15 @@
 
 ## Command Github
 
-- git init
+
+1. git init
+
+Fungsi: Menginisialisasi repository Git di direktori lokal.
+
+Contoh: git init
+
+Penjelasan: Digunakan untuk membuat repository Git baru di direktori saat ini.
+
 - git add nama file / git add . (untuk semua file)
 - git commit -m "first commit"
 - git branch -M main
