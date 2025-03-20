@@ -5,7 +5,7 @@
 ## Command Github
 
 
-### git init
+### 1. git init
 
 - Fungsi: Menginisialisasi repository Git di direktori lokal.
 
@@ -15,7 +15,7 @@
 
 - git add nama file / git add . (untuk semua file)
 
-### git clone
+### 2. git clone
 
 - Fungsi: Mengunduh repository dari remote (misalnya dari GitHub).
 
@@ -23,7 +23,7 @@
 
 - Penjelasan: Membuat salinan dari repository yang ada dari remote ke lokal.
 
-### git add
+### 3. git add
 
 - Fungsi: Menambahkan perubahan pada staging area sebelum melakukan commit.
 
@@ -31,7 +31,7 @@
 
 - Penjelasan: Menambahkan semua file yang berubah untuk siap di-commit. Bisa juga menggunakan git add <file> untuk file tertentu.
 
-### git commit -m "<pesan>"
+### 4. git commit -m "<pesan>"
 
 - Fungsi: Menyimpan snapshot perubahan yang ada di staging area ke repository.
 
@@ -39,7 +39,7 @@
 
 - Penjelasan: Commit dengan pesan untuk mendokumentasikan perubahan yang dilakukan.
 
-### git status
+### 5. git status
 
 - Fungsi: Menampilkan status dari repository, termasuk file yang diubah, staged, atau belum di-track.
 
@@ -47,7 +47,7 @@
 
 - Penjelasan: Memberi gambaran tentang perubahan yang ada dan tindakan yang perlu dilakukan.
 
-### git push
+### 6. git push
 
 - Fungsi: Mengirim perubahan lokal ke repository remote.
 
@@ -55,7 +55,7 @@
 
 - Penjelasan: Mengirim commit yang ada di branch lokal ke branch yang sesuai di remote (misalnya GitHub).
 
-### git pull
+### 7. git pull
 
 - Fungsi: Mengambil dan menggabungkan perubahan dari repository remote ke lokal.
 
@@ -63,7 +63,7 @@
 
 - Penjelasan: Memperbarui branch lokal dengan perubahan terbaru dari remote.
 
-### git branch
+### 8. git branch
 
 - Fungsi: Menampilkan daftar branch atau membuat branch baru.
 
@@ -71,7 +71,7 @@
 
 - Penjelasan: Memungkinkan pengelolaan branch, baik untuk melihat atau membuat cabang baru.
 
-### git checkout
+### 9. git checkout
 
 - Fungsi: Beralih antara branch atau commit tertentu.
 
@@ -79,7 +79,7 @@
 
 - Penjelasan: Digunakan untuk navigasi antara branch atau snapshot repository yang berbeda.
 
-### git merge
+### 10. git merge
 
 - Fungsi: Menggabungkan branch lain ke dalam branch saat ini.
 
@@ -87,7 +87,7 @@
 
 - Penjelasan: Menggabungkan perubahan dari branch new-feature ke branch yang sedang aktif.
 
-### git log
+### 11. git log
 
 - Fungsi: Menampilkan riwayat commit.
 
@@ -95,7 +95,7 @@
 
 - Penjelasan: Menampilkan daftar commit yang telah dilakukan, termasuk pesan commit, hash, dan waktu commit.
 
-### git revert <commit>
+### 12. git revert <commit>
 
 - Fungsi: Membatalkan perubahan yang dilakukan di commit tertentu.
 
@@ -103,7 +103,7 @@
 
 - Penjelasan: Membuat commit baru yang membalikkan perubahan dari commit yang ditentukan, tanpa mengubah riwayat commit sebelumnya.
 
-### git reset
+### 13. git reset
 
 - Fungsi: Mengembalikan perubahan pada commit tertentu.
 
@@ -111,7 +111,7 @@
 
 - Penjelasan: Mengatur ulang branch saat ini ke status yang lebih lama, dengan pilihan untuk tetap mempertahankan atau membuang perubahan.
 
-### git stash
+### 14. git stash
 
 - Fungsi: Menyimpan perubahan yang belum di-commit sementara, sehingga Anda dapat bekerja di branch lain tanpa kehilangan perubahan.
 
