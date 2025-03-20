@@ -2,6 +2,8 @@
 
 ![Alt Text](./images/BasicGuideGitHub.jpg)
 
+<hr>
+
 ## Command Github
 
 
@@ -19,7 +21,7 @@
 
 - Fungsi: Mengunduh repository dari remote (misalnya dari GitHub).
 
-- Contoh: >`git clone https://github.com/username/repo.git`
+- Contoh: `git clone https://github.com/username/repo.git`
 
 - Penjelasan: Membuat salinan dari repository yang ada dari remote ke lokal.
 
@@ -119,4 +121,10 @@
 
 - Penjelasan: Menyimpan sementara perubahan kerja saat ini tanpa melakukan commit, dan bisa diambil kembali dengan git stash pop.
 
-## Update Learn Coming Soon
+<hr>
+
+## For More Details Check Below
+![Watch to Youtube]()
+
+## Credits
+- process
