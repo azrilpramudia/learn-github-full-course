@@ -1,3 +1,4 @@
+# Git & Github Full Course
 # Learn Github Command
 
 ![Alt Text](./images/BasicGuideGitHub.jpg)
@@ -124,7 +125,9 @@
 <hr>
 
 ## For More Details Check Below
-![Watch to Youtube]()
+![SuperSimpleDev]()
+![JavaScript Mastery]()
 
 ## Credits
-- process
+- SuperSimpleDev
+- JavaScript Mastery
