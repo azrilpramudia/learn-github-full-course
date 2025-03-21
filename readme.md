@@ -1,11 +1,10 @@
 # Git & Github Full Course
-# Learn Github Command
 
 ![Alt Text](./images/BasicGuideGitHub.jpg)
 
 <hr>
 
-## Command Github
+## Learn Command Github
 
 
 ### 1. git init
