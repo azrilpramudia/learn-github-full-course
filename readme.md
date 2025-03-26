@@ -6,7 +6,7 @@
 
 ## Learn Command Github
 
-![Cheatsheet](./images/)
+![Cheatsheet](./images/git-cheatsheet.jpg)
 
 **see and read for git command explanation**
 
