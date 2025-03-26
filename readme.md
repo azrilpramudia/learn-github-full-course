@@ -124,13 +124,14 @@
 <hr>
 
 ## For More Details Check Below
-![Images]()
+![Images](./images/git.jpg)
 <br>
-[SuperSimpleDev](https://youtu.be/hrTQipWp6co?si=UJqNOZmhaJGj8FIZ)
+[**SuperSimpleDev**](https://youtu.be/hrTQipWp6co?si=UJqNOZmhaJGj8FIZ)
 <br>
-![Images]()
+
+![Images](./images/hqdefault.jpg)
 <br>
-[JavaScript Mastery](https://youtu.be/S7XpTAnSDL4?si=-TDNw2Z1BHW7Yn52)
+[**JavaScript Mastery**](https://youtu.be/S7XpTAnSDL4?si=-TDNw2Z1BHW7Yn52)
 
 ## Credits
 - SuperSimpleDev
