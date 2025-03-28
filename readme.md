@@ -2,6 +2,8 @@
 
 ![Front Images](./images/BasicGuideGitHub.jpg)
 
+**Don't Forget to Star This Repository ⭐**
+
 <hr>
 
 ## Git Cheatsheet
