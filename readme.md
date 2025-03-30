@@ -128,12 +128,12 @@
 <hr>
 
 ## For More Details Check Below
-![Images](./images/git.jpg)
+![Cover-Images](./images/git.jpg)
 <br>
 [**SuperSimpleDev**](https://youtu.be/hrTQipWp6co?si=UJqNOZmhaJGj8FIZ)
 <br>
 
-![Images](./images/hqdefault.jpg)
+![Cover-Images](./images/hqdefault.jpg)
 <br>
 [**JavaScript Mastery**](https://youtu.be/S7XpTAnSDL4?si=-TDNw2Z1BHW7Yn52)
 
