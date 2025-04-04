@@ -8,7 +8,7 @@
 
 ## Git Cheatsheet
 
-![Cheatsheet](./images/git-cheatsheet.jpg)
+![Cheatsheet](./images/cheatsheet.webp)
 
 ## Git Command
 ### 1. git init
