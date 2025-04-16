@@ -1,142 +1,103 @@
-# Git & Github Full Course
+# Git & GitHub Full Course
 
 ![Front Images](./images/BasicGuideGitHub.jpg)
 
-**Don't Forget to Star This Repository ⭐**
+<p align="center">
+  <strong>Don't Forget to ⭐ Star This Repository!</strong>
+</p>
 
-<hr>
+---
 
-## Git Cheatsheet
+## 📄 Git Cheatsheet
 
 ![Cheatsheet](./images/cheatsheet.webp)
 
-## Git Command
-### 1. git init
+---
 
-- Fungsi: Menginisialisasi repository Git di direktori lokal.
+## 💻 Git Commands Guide
 
-- Contoh: git init
+### 1. `git init`
+- **Fungsi**: Menginisialisasi repository Git di direktori lokal.
+- **Contoh**: `git init`
+- **Penjelasan**: Membuat repository Git baru di direktori saat ini.
 
-- Penjelasan: Digunakan untuk membuat repository Git baru di direktori saat ini.
+### 2. `git clone`
+- **Fungsi**: Mengunduh repository dari remote.
+- **Contoh**: `git clone https://github.com/username/repo.git`
+- **Penjelasan**: Menyalin repository dari remote ke lokal.
 
-- git add nama file / git add . (untuk semua file)
+### 3. `git add`
+- **Fungsi**: Menambahkan perubahan ke staging area.
+- **Contoh**: `git add .` atau `git add <file>`
+- **Penjelasan**: Menyiapkan file untuk di-commit.
 
-### 2. git clone
+### 4. `git commit -m "<pesan>"`
+- **Fungsi**: Menyimpan snapshot dari staging area.
+- **Contoh**: `git commit -m "Initial commit"`
+- **Penjelasan**: Menyimpan perubahan dengan pesan deskriptif.
 
-- Fungsi: Mengunduh repository dari remote (misalnya dari GitHub).
+### 5. `git status`
+- **Fungsi**: Menampilkan status file di repository.
+- **Contoh**: `git status`
+- **Penjelasan**: Menunjukkan file yang diubah, staged, atau untracked.
 
-- Contoh: `git clone https://github.com/username/repo.git`
+### 6. `git push`
+- **Fungsi**: Mengirim commit ke repository remote.
+- **Contoh**: `git push origin main`
+- **Penjelasan**: Sinkronisasi branch lokal ke remote.
 
-- Penjelasan: Membuat salinan dari repository yang ada dari remote ke lokal.
+### 7. `git pull`
+- **Fungsi**: Mengambil & menggabungkan perubahan dari remote.
+- **Contoh**: `git pull origin main`
+- **Penjelasan**: Update branch lokal dari remote.
 
-### 3. git add
+### 8. `git branch`
+- **Fungsi**: Menampilkan/membuat branch.
+- **Contoh**: `git branch` atau `git branch new-feature`
+- **Penjelasan**: Manajemen cabang pengembangan.
 
-- Fungsi: Menambahkan perubahan pada staging area sebelum melakukan commit.
+### 9. `git checkout`
+- **Fungsi**: Beralih branch atau commit tertentu.
+- **Contoh**: `git checkout main` atau `git checkout <commit>`
+- **Penjelasan**: Navigasi antar branch atau versi.
 
-- Contoh: git add .
+### 10. `git merge`
+- **Fungsi**: Menggabungkan branch ke branch aktif.
+- **Contoh**: `git merge new-feature`
+- **Penjelasan**: Menyatukan perubahan dari branch lain.
 
-- Penjelasan: Menambahkan semua file yang berubah untuk siap di-commit. Bisa juga menggunakan git add <file> untuk file tertentu.
+### 11. `git log`
+- **Fungsi**: Melihat riwayat commit.
+- **Contoh**: `git log`
+- **Penjelasan**: Menampilkan daftar lengkap commit.
 
-### 4. git commit -m "<pesan>"
+### 12. `git revert <commit>`
+- **Fungsi**: Membatalkan perubahan dari commit tertentu.
+- **Contoh**: `git revert <hash_commit>`
+- **Penjelasan**: Membuat commit baru yang membalikkan perubahan.
 
-- Fungsi: Menyimpan snapshot perubahan yang ada di staging area ke repository.
+### 13. `git reset`
+- **Fungsi**: Mengembalikan repository ke commit sebelumnya.
+- **Contoh**: `git reset --hard <commit>`
+- **Penjelasan**: Reset branch ke commit tertentu (dapat membuang perubahan).
 
-- Contoh: git commit -m "Initial commit"
+### 14. `git stash`
+- **Fungsi**: Menyimpan sementara perubahan kerja.
+- **Contoh**: `git stash`
+- **Penjelasan**: Menyimpan perubahan sementara, bisa diambil kembali dengan `git stash pop`.
 
-- Penjelasan: Commit dengan pesan untuk mendokumentasikan perubahan yang dilakukan.
+---
 
-### 5. git status
+## 📚 Learn More
 
-- Fungsi: Menampilkan status dari repository, termasuk file yang diubah, staged, atau belum di-track.
+### SuperSimpleDev
+[![SuperSimpleDev](./images/git.jpg)](https://youtu.be/hrTQipWp6co?si=UJqNOZmhaJGj8FIZ)
 
-- Contoh: git status
+### JavaScript Mastery
+[![JavaScript Mastery](./images/hqdefault.jpg)](https://youtu.be/S7XpTAnSDL4?si=-TDNw2Z1BHW7Yn52)
 
-- Penjelasan: Memberi gambaran tentang perubahan yang ada dan tindakan yang perlu dilakukan.
+---
 
-### 6. git push
-
-- Fungsi: Mengirim perubahan lokal ke repository remote.
-
-- Contoh: git push origin main
-
-- Penjelasan: Mengirim commit yang ada di branch lokal ke branch yang sesuai di remote (misalnya GitHub).
-
-### 7. git pull
-
-- Fungsi: Mengambil dan menggabungkan perubahan dari repository remote ke lokal.
-
-- Contoh: git pull origin main
-
-- Penjelasan: Memperbarui branch lokal dengan perubahan terbaru dari remote.
-
-### 8. git branch
-
-- Fungsi: Menampilkan daftar branch atau membuat branch baru.
-
-- Contoh: git branch (untuk melihat daftar branch), git branch new-feature (untuk membuat branch baru)
-
-- Penjelasan: Memungkinkan pengelolaan branch, baik untuk melihat atau membuat cabang baru.
-
-### 9. git checkout
-
-- Fungsi: Beralih antara branch atau commit tertentu.
-
-- Contoh: git checkout main (untuk pindah ke branch main), git checkout <commit> (untuk berpindah ke commit tertentu)
-
-- Penjelasan: Digunakan untuk navigasi antara branch atau snapshot repository yang berbeda.
-
-### 10. git merge
-
-- Fungsi: Menggabungkan branch lain ke dalam branch saat ini.
-
-- Contoh: git merge new-feature
-
-- Penjelasan: Menggabungkan perubahan dari branch new-feature ke branch yang sedang aktif.
-
-### 11. git log
-
-- Fungsi: Menampilkan riwayat commit.
-
-- Contoh: git log
-
-- Penjelasan: Menampilkan daftar commit yang telah dilakukan, termasuk pesan commit, hash, dan waktu commit.
-
-### 12. git revert <commit>
-
-- Fungsi: Membatalkan perubahan yang dilakukan di commit tertentu.
-
-- Contoh: git revert <hash_commit>
-
-- Penjelasan: Membuat commit baru yang membalikkan perubahan dari commit yang ditentukan, tanpa mengubah riwayat commit sebelumnya.
-
-### 13. git reset
-
-- Fungsi: Mengembalikan perubahan pada commit tertentu.
-
-- Contoh: git reset --hard <commit> (untuk mengembalikan sepenuhnya ke commit tertentu)
-
-- Penjelasan: Mengatur ulang branch saat ini ke status yang lebih lama, dengan pilihan untuk tetap mempertahankan atau membuang perubahan.
-
-### 14. git stash
-
-- Fungsi: Menyimpan perubahan yang belum di-commit sementara, sehingga Anda dapat bekerja di branch lain tanpa kehilangan perubahan.
-
-- Contoh: git stash
-
-- Penjelasan: Menyimpan sementara perubahan kerja saat ini tanpa melakukan commit, dan bisa diambil kembali dengan git stash pop.
-
-<hr>
-
-## For More Details Check Below
-![Cover-Images](./images/git.jpg)
-<br>
-[**SuperSimpleDev**](https://youtu.be/hrTQipWp6co?si=UJqNOZmhaJGj8FIZ)
-<br>
-
-![Cover-Images](./images/hqdefault.jpg)
-<br>
-[**JavaScript Mastery**](https://youtu.be/S7XpTAnSDL4?si=-TDNw2Z1BHW7Yn52)
-
-## Credits
-- SuperSimpleDev
-- JavaScript Mastery
+## 🙌 Credits
+- [SuperSimpleDev](https://www.youtube.com/c/SuperSimpleDev)
+- [JavaScript Mastery](https://www.youtube.com/c/javascriptmastery)
